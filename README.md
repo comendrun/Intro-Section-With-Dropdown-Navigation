@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/comendrun/Intro-Section-With-Dropdown-Navigation)
-- Live Site URL: [Add live site URL here](https://comendrun.github.io/Intro-Section-With-Dropdown-Navigation/)
+- Solution URL: [Github Repo](https://github.com/comendrun/Intro-Section-With-Dropdown-Navigation)
+- Live Site URL: [Live](https://comendrun.github.io/Intro-Section-With-Dropdown-Navigation/)
 
 ## My process
 

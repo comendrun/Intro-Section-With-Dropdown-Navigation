@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="/images/favicon-32x32.png" />
+    <!--Favicon-->
+
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--Google Fonts-->
+
+    <link rel="stylesheet" href="./styles.css" />
+    <style></style>
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  </head>
+  <body>
+    <div class="overlay hidden" id="overlay"></div>
+    <nav class="navbar">
+      <img class="logo" src="./images/logo.svg" alt="logo" />
+
+      <img
+        src="./images/icon-menu.svg"
+        alt="menu"
+        class="open-menu-img"
+        id="open-menu"
+      />
+      <div id="side-navbar-container" class="nav-control-container">
+        <img
+          src="./images/icon-close-menu.svg"
+          alt="close-menu"
+          class="close-menu-img"
+          id="close-menu"
+        />
+        <div class="general-nav">
+          <div class="features-nav controller">
+            <a href="/" id="features-nav-menu"
+              >Features
+              <img
+                alt="dropdown"
+                class="drop-down"
+                src="./images/icon-arrow-down.svg"
+              /><img
+                alt="'drop-back"
+                src="./images/icon-arrow-up.svg"
+                class="drop-back hidden"
+              />
+            </a>
+            <ul class="features-list hidden list">
+              <li>
+                <a href="/"
+                  ><img src="./images/icon-todo.svg" alt="icon-calendar" /> Todo
+                  List</a
+                >
+              </li>
+              <li>
+                <a href="/"
+                  ><img src="./images/icon-calendar.svg" alt="icon-calendar" />
+                  Calendar</a
+                >
+              </li>
+              <li>
+                <a href="/"
+                  ><img src="./images/icon-reminders.svg" alt="icon-calendar" />
+                  Reminders</a
+                >
+              </li>
+              <li>
+                <a href="/"
+                  ><img src="./images/icon-planning.svg" alt="icon-calendar" />
+                  Planning</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="company-nav controller">
+            <a href="/" id="company-nav-menu"
+              >Company
+              <img
+                alt="dropdown"
+                class="drop-down"
+                src="./images/icon-arrow-down.svg"
+              /><img
+                alt="'drop-up"
+                src="./images/icon-arrow-up.svg"
+                class="drop-back hidden"
+              />
+            </a>
+            <ul class="company-list hidden list">
+              <li>
+                <a href="/"> History</a>
+              </li>
+              <li>
+                <a href="/"> Our Team</a>
+              </li>
+              <li>
+                <a href="/"> Blog</a>
+              </li>
+            </ul>
+          </div>
+          <div class="careers-nav">
+            <a href="/">Careers</a>
+          </div>
+          <div class="about-nav">
+            <a href="/">about</a>
+          </div>
+          <!-- end of general nav ==> -->
+        </div>
+        <div class="login-nav">
+          <a href="/">Login</a>
+          <a class="btn-register" href="/">Register</a>
+        </div>
+      </div>
+    </nav>
+    <main class="container">
+      <img
+        class="hero-mobile"
+        src="./images/image-hero-mobile.png"
+        alt="hero-mobile"
+      />
+      <img
+        class="hero-desktop"
+        src="./images/image-hero-desktop.png"
+        alt="hero-desktop"
+      />
+
+      <div class="text-box">
+        <h1>Make remote work</h1>
+        <p>
+          Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.
+        </p>
+        <a class="btn" href="/">Learn more</a>
+        <div class="logo-box">
+          <img
+            src="./images/client-databiz.svg"
+            class="bottom-logo"
+            alt="databiz"
+          />
+          <img
+            src="./images/client-audiophile.svg"
+            class="bottom-logo"
+            alt="audiophile"
+          />
+          <img src="./images/client-meet.svg" class="bottom-logo" alt="meet" />
+          <img
+            src="./images/client-maker.svg"
+            class="bottom-logo"
+            alt="maker"
+          />
+        </div>
+      </div>
+    </main>
+    <footer class="attribution">
+      Challenge by &nbsp;
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+        Frontend Mentor
+      </a>
+      . Coded by &nbsp;
+      <a href="https://github.com/comendrun"> Kamran Rouhani</a>.
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
